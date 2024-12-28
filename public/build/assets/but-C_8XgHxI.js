@@ -1,0 +1,1 @@
+for(var n=function(e){e.preventDefault,e.target.classList.remove("animate"),e.target.classList.add("animate"),setTimeout(function(){e.target.classList.remove("animate")},700)},a=document.getElementsByClassName("bubbly-button"),t=0;t<a.length;t++)a[t].addEventListener("click",n,!1);

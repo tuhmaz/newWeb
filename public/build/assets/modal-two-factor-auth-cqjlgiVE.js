@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(o){(function(){const n=document.querySelectorAll("#twoFactorAuthInputSms");n&&n.forEach(function(e){new Cleave(e,{phone:!0,phoneRegionCode:"US"})})})()});
